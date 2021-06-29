@@ -1,0 +1,87 @@
+ <html>
+<head>
+<title>WWW.PUKANE HIGH SCHOOL</title>
+<style>
+
+body{
+     margin:0;
+}
+ul{
+   list-style-type:none;
+   margin:0;
+   padding:0;
+   width:26%;
+   background-color:#f1f1f1;
+   position:fixed;
+   height:100%;
+   overflow:auto;
+}
+li a{
+     display:block;
+     color:#000;
+     padding: 8px 0 8px 16px;
+     text-decoration:none;
+}
+li a.active{
+            background-color:steekblue;
+            color:red;
+}
+li a:hover:not(.active){
+                        background-color:maroon;
+                        color:white;}
+
+
+
+</style>
+</head>
+<body bgcolor="maroon">
+
+<ul>
+<li><a class="active" href=APPLICATION FORM>APPLICATION FORM</a></li>
+<li><a href="NEWS.html">NEWS</a></li>
+<li><a href="ABOUT US.html">ABOUT US</a></li>
+<li><a href="index.html">HOME</a></li>
+</ul>
+
+<div style="margin-left:30%;padding:2px 16px;height:100px">
+ 
+<b>APPLICATION FORM</b>
+<hr>
+<form>
+First name:<Input type="text"name="nm"><br><br>
+Last name:<Input type="text"Surname="sn"><br><br>
+TelephoneNumber:<Input type="text"telephonenumber="tp"><br><br>
+Gender:<Input type="radio"name="gn">male 
+       <Input type="radio"name="gn">female <br><br>
+
+ID Number:<Input type="text"name="id"><br><br>
+Nationality:<select name="Country"><br><br>
+            <option value="">Angola
+              <option value="">Botswana
+                <option value="">Comoros
+                <option value="">DRC
+                        <option value="">Eswatini
+                        <option value="">Lesotho
+		<option value="">Mozambique
+		<option value="">Mauritius
+			<option value="">Malawi
+			<option value="">Namibia
+		<option value="">Seychelles
+			<option value="">South Africa
+			<option value="">Tanzania
+		<option value="">Zimbabwe
+                <option value="">Zambia</select><br><br>
+
+Description:<textarea row="5" cols="50" name="description">
+            </textarea><br><br>
+I am:<Input type="radio"name="choose">Student
+     <Input type="radio"name="choose">Teacher<br><br>
+
+PUKANE HIGH SCHOOL CODE:<Input type="text"name="c"><br><br>
+<Input type="Submit"name="Submit"value="Submit">	
+<Input type="Reset"name="Reset"value="Cancel">
+		
+</form>
+
+</body>
+</html>
